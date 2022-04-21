@@ -1,0 +1,26 @@
+
+.all-photos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+.loading-div {
+    width: 450px;
+    height: 200px;
+    background-color:  rgb(153, 153, 153);
+    margin-left: 140px;
+    margin-top: 50px;
+    text-align: center;
+   
+}
+
+.loading-box-text {
+    width: 300px;
+    height: 150px;
+    background-color:  rgb(153, 153, 153);;
+    margin: auto;
+}

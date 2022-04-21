@@ -1,0 +1,90 @@
+.photo-details {
+    display: grid;
+    grid-template-columns: 200px 20px 270px 200px;
+    grid-template-rows: auto;
+    gap: 10px;
+    grid-template-areas: 
+    "name genre genre author"
+    "image image image image"
+    "buttons buttons . likes"
+    "comments comments comments comments";
+    margin-top: 10px;
+    width: 750px;
+    padding: 1.5rem;
+    background-color: rgb(84, 94, 104);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.photo-name {
+    grid-area: name;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.photo-genre {
+    grid-area: genre;
+    justify-self: center;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.photo-author {
+    grid-area: author;
+    justify-self: start;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.photo-image {
+    grid-area: image;
+}
+
+.button-section {
+    grid-area: buttons;
+    justify-self: center;
+}
+
+.photo-likes {
+    grid-area: likes;
+    font-size: 20px;
+    color: antiquewhite;;
+}
+
+.comment-section {
+    grid-area: comments;
+    font-size: 17px;
+}
+
+.comments-div {
+    overflow: auto;
+    height: 150px;
+    width: 600px;
+    background-color: antiquewhite;
+}
+
+.owner-buttons {
+    
+    text-align: center;
+    font: 1em sans-serif;
+    font-size: medium;
+    font-size: 18px;
+}
+
+.guest-buttons {
+    text-align: center;
+    font: 1em sans-serif;
+    font-size: medium;
+    font-size: 18px;
+}
+
+.like-button {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    color: blue;
+    font-size: 15px;
+}

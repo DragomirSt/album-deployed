@@ -1,0 +1,23 @@
+.img {
+    object-fit: cover;
+    padding: 5px;
+}
+
+.button {
+    color:  antiquewhite;
+    width: 130px;
+    height: auto;
+    text-align: center;
+    font-size: 1.5rem;
+   
+}
+
+.photo-card {
+    width: 500px;
+    height: auto;
+    background-color: rgb(84, 94, 104);
+}
+
+
+
+

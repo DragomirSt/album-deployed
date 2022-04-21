@@ -1,0 +1,53 @@
+
+.edit-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-color:  #0000003f;
+    width: 425px;
+    height: 500px;
+    margin-top: 20px;
+    background-color: rgb(84, 94, 104);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.button-submit {
+    background-color: whitesmoke;
+    font: 1em sans-serif;
+    border: none;
+}
+
+.name {
+    width:220px;
+    height: 25px;
+}
+
+.genre {
+    width:220px;
+    height: 25px;
+}
+
+.imageUrl {
+    width:220px;
+    height: 25px;
+}
+
+.edit-form-text {
+    color: antiquewhite;
+    text-align: center;
+}
+
+.edit-label {
+    color: whitesmoke;
+}
+
+.genre-label {
+    color: whitesmoke;
+}
+
+.image-label {
+    color: whitesmoke;
+}

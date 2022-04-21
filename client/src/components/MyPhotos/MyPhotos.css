@@ -1,0 +1,27 @@
+
+.my-photos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+
+.no-photo-section {
+    width: 350px;
+    height: 110px;
+    margin-left: 140px;
+    margin-top: 20px;
+    background-color: rgb(153, 153, 153);
+    text-align: center;
+}
+
+.no-photo-text {
+    width: 300px;
+    height: 60px;
+    margin-left: 25px;
+    background-color: whitesmoke;
+    text-align: center;
+}

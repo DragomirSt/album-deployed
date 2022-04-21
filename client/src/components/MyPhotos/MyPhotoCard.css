@@ -1,0 +1,23 @@
+
+.img {
+    object-fit: cover;
+    padding: 5px;
+}
+
+.photo-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 450px;
+    height: auto;
+    padding: 15px;    
+}
+
+.button {
+    background-color: whitesmoke;
+    width: 130px;
+    height: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: oblique;
+}
